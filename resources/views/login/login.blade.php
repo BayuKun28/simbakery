@@ -16,19 +16,19 @@
     <meta name="keywords" content="Mordenize" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <!--  Favicon -->
-    <link rel="shortcut icon" type="image/png" href="{{ asset('dist/') }}/images/logos/favicon.png" />
+    <link rel="shortcut icon" type="image/png" href="{{ asset('modern/dist/') }}/images/logos/favicon.png" />
     <!-- Core Css -->
-    <link id="themeColors" rel="stylesheet" href="{{ asset('dist/') }}/css/style.min.css" />
+    <link id="themeColors" rel="stylesheet" href="{{ asset('modern/dist/') }}/css/style.min.css" />
 </head>
 
 <body>
     <!-- Preloader -->
     <div class="preloader">
-        <img src="{{ asset('dist/') }}/images/logos/favicon.png" alt="loader" class="lds-ripple img-fluid" />
+        <img src="{{ asset('modern/dist/') }}/images/logos/favicon.png" alt="loader" class="lds-ripple img-fluid" />
     </div>
     <!-- Preloader -->
     <div class="preloader">
-        <img src="{{ asset('dist/') }}/images/logos/favicon.png" alt="loader" class="lds-ripple img-fluid" />
+        <img src="{{ asset('modern/dist/') }}/images/logos/favicon.png" alt="loader" class="lds-ripple img-fluid" />
     </div>
     <!--  Body Wrapper -->
     <div class="page-wrapper" id="main-wrapper" data-layout="vertical" data-sidebartype="full"
@@ -91,16 +91,16 @@
     </div>
 
     <!--  Import Js Files -->
-    <script src="{{ asset('dist/') }}/libs/jquery/dist/jquery.min.js"></script>
-    <script src="{{ asset('dist/') }}/libs/simplebar/dist/simplebar.min.js"></script>
-    <script src="{{ asset('dist/') }}/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="{{ asset('modern/dist/') }}/libs/jquery/dist/jquery.min.js"></script>
+    <script src="{{ asset('modern/dist/') }}/libs/simplebar/dist/simplebar.min.js"></script>
+    <script src="{{ asset('modern/dist/') }}/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <!--  core files -->
-    <script src="{{ asset('dist/') }}/js/app.min.js"></script>
-    <script src="{{ asset('dist/') }}/js/app.init.js"></script>
-    <script src="{{ asset('dist/') }}/js/app-style-switcher.js"></script>
-    <script src="{{ asset('dist/') }}/js/sidebarmenu.js"></script>
+    <script src="{{ asset('modern/dist/') }}/js/app.min.js"></script>
+    <script src="{{ asset('modern/dist/') }}/js/app.init.js"></script>
+    <script src="{{ asset('modern/dist/') }}/js/app-style-switcher.js"></script>
+    <script src="{{ asset('modern/dist/') }}/js/sidebarmenu.js"></script>
 
-    <script src="{{ asset('dist/') }}/js/custom.js"></script>
+    <script src="{{ asset('modern/dist/') }}/js/custom.js"></script>
 </body>
 
 <!-- Mirrored from demos.adminmart.com/premium/bootstrap/modernize-bootstrap/package/html/main/authentication-login.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 23 Apr 2023 13:02:50 GMT -->
