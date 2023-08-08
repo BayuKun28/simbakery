@@ -29,6 +29,8 @@ class LoginController extends Controller
             return redirect()->route('dashboard')->withSuccess('You have successfully logged in!');
         }
 
+        return view('welcome');
+
         // return back()->withErrors([
         //     'username' => 'Your provided credentials do not match in our records.',
         // ])->onlyInput('username');

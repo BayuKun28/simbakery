@@ -39,8 +39,8 @@
                     <div class="col-lg-6 col-xl-8 col-xxl-8">
                         <div class="d-none d-lg-flex align-items-center justify-content-center"
                             style="height: calc(100vh - 80px);">
-                            <img src="https://demos.adminmart.com/premium/bootstrap/modernize-bootstrap/package/dist/images/backgrounds/login-security.svg"
-                                alt="" class="img-fluid" width="500">
+                            <img src="{{ asset('modern/dist/') }}/images/logos/login-security.svg" alt=""
+                                class="img-fluid" width="500">
                         </div>
                     </div>
                     <div class="col-lg-6 col-xl-4 col-xxl-4">
@@ -63,7 +63,8 @@
                                             <label for="exampleInputEmail1" class="form-label">Username</label>
                                             <input type="text"
                                                 class="form-control rounded @error('username') is-invalid @enderror"
-                                                name="username" id="exampleInputEmail1" placeholder="Username">
+                                                name="username" value="{{ old('username') }}" id="exampleInputEmail1"
+                                                placeholder="Username">
                                         </div>
                                         @if ($errors->has('username'))
                                             <span class="text-danger">{{ $errors->first('username') }}</span>
