@@ -321,7 +321,7 @@
                     </a>
                     <ul aria-expanded="false" class="collapse first-level">
                         <li class="sidebar-item">
-                            <a href="ui-accordian.html" class="sidebar-link">
+                            <a href="{{ route('hutangpenjualan') }}" class="sidebar-link">
                                 <div class="round-16 d-flex align-items-center justify-content-center">
                                     <i class="ti ti-circle"></i>
                                 </div>
@@ -329,7 +329,7 @@
                             </a>
                         </li>
                         <li class="sidebar-item">
-                            <a href="ui-badge.html" class="sidebar-link">
+                            <a href="{{ route('laporanhutangpenjualan') }}" class="sidebar-link">
                                 <div class="round-16 d-flex align-items-center justify-content-center">
                                     <i class="ti ti-circle"></i>
                                 </div>
@@ -337,7 +337,7 @@
                             </a>
                         </li>
                         <li class="sidebar-item">
-                            <a href="ui-badge.html" class="sidebar-link">
+                            <a href="{{ route('adjhutang') }}" class="sidebar-link">
                                 <div class="round-16 d-flex align-items-center justify-content-center">
                                     <i class="ti ti-circle"></i>
                                 </div>
@@ -355,7 +355,7 @@
                     </a>
                     <ul aria-expanded="false" class="collapse first-level">
                         <li class="sidebar-item">
-                            <a href="ui-accordian.html" class="sidebar-link">
+                            <a href="{{ route('piutangpenjualan') }}" class="sidebar-link">
                                 <div class="round-16 d-flex align-items-center justify-content-center">
                                     <i class="ti ti-circle"></i>
                                 </div>
@@ -363,7 +363,7 @@
                             </a>
                         </li>
                         <li class="sidebar-item">
-                            <a href="ui-badge.html" class="sidebar-link">
+                            <a href="{{ route('laporanpiutangpenjualan') }}" class="sidebar-link">
                                 <div class="round-16 d-flex align-items-center justify-content-center">
                                     <i class="ti ti-circle"></i>
                                 </div>
@@ -371,7 +371,7 @@
                             </a>
                         </li>
                         <li class="sidebar-item">
-                            <a href="ui-badge.html" class="sidebar-link">
+                            <a href="{{ route('adjpiutang') }}" class="sidebar-link">
                                 <div class="round-16 d-flex align-items-center justify-content-center">
                                     <i class="ti ti-circle"></i>
                                 </div>
@@ -389,7 +389,7 @@
                     </a>
                     <ul aria-expanded="false" class="collapse first-level">
                         <li class="sidebar-item">
-                            <a href="ui-accordian.html" class="sidebar-link">
+                            <a href="{{ route('kasmasuk') }}" class="sidebar-link">
                                 <div class="round-16 d-flex align-items-center justify-content-center">
                                     <i class="ti ti-circle"></i>
                                 </div>
@@ -397,7 +397,7 @@
                             </a>
                         </li>
                         <li class="sidebar-item">
-                            <a href="ui-badge.html" class="sidebar-link">
+                            <a href="{{ route('laporankasmasuk') }}" class="sidebar-link">
                                 <div class="round-16 d-flex align-items-center justify-content-center">
                                     <i class="ti ti-circle"></i>
                                 </div>
@@ -405,7 +405,7 @@
                             </a>
                         </li>
                         <li class="sidebar-item">
-                            <a href="ui-accordian.html" class="sidebar-link">
+                            <a href="{{ route('bankmasuk') }}" class="sidebar-link">
                                 <div class="round-16 d-flex align-items-center justify-content-center">
                                     <i class="ti ti-circle"></i>
                                 </div>
@@ -413,7 +413,7 @@
                             </a>
                         </li>
                         <li class="sidebar-item">
-                            <a href="ui-badge.html" class="sidebar-link">
+                            <a href="{{ route('laporanbankmasuk') }}" class="sidebar-link">
                                 <div class="round-16 d-flex align-items-center justify-content-center">
                                     <i class="ti ti-circle"></i>
                                 </div>
@@ -421,7 +421,7 @@
                             </a>
                         </li>
                         <li class="sidebar-item">
-                            <a href="ui-accordian.html" class="sidebar-link">
+                            <a href="{{ route('kaskeluar') }}" class="sidebar-link">
                                 <div class="round-16 d-flex align-items-center justify-content-center">
                                     <i class="ti ti-circle"></i>
                                 </div>
@@ -429,7 +429,7 @@
                             </a>
                         </li>
                         <li class="sidebar-item">
-                            <a href="ui-badge.html" class="sidebar-link">
+                            <a href="{{ route('laporankaskeluar') }}" class="sidebar-link">
                                 <div class="round-16 d-flex align-items-center justify-content-center">
                                     <i class="ti ti-circle"></i>
                                 </div>
@@ -437,7 +437,7 @@
                             </a>
                         </li>
                         <li class="sidebar-item">
-                            <a href="ui-accordian.html" class="sidebar-link">
+                            <a href="{{ route('bankkeluar') }}" class="sidebar-link">
                                 <div class="round-16 d-flex align-items-center justify-content-center">
                                     <i class="ti ti-circle"></i>
                                 </div>
@@ -445,7 +445,7 @@
                             </a>
                         </li>
                         <li class="sidebar-item">
-                            <a href="ui-badge.html" class="sidebar-link">
+                            <a href="{{ route('laporancashflow') }}" class="sidebar-link">
                                 <div class="round-16 d-flex align-items-center justify-content-center">
                                     <i class="ti ti-circle"></i>
                                 </div>
@@ -453,7 +453,7 @@
                             </a>
                         </li>
                         <li class="sidebar-item">
-                            <a href="ui-accordian.html" class="sidebar-link">
+                            <a href="{{ route('laporanbbs') }}" class="sidebar-link">
                                 <div class="round-16 d-flex align-items-center justify-content-center">
                                     <i class="ti ti-circle"></i>
                                 </div>
@@ -461,7 +461,7 @@
                             </a>
                         </li>
                         <li class="sidebar-item">
-                            <a href="ui-badge.html" class="sidebar-link">
+                            <a href="{{ route('bukubankrk') }}" class="sidebar-link">
                                 <div class="round-16 d-flex align-items-center justify-content-center">
                                     <i class="ti ti-circle"></i>
                                 </div>
@@ -479,7 +479,7 @@
                     </a>
                     <ul aria-expanded="false" class="collapse first-level">
                         <li class="sidebar-item">
-                            <a href="ui-accordian.html" class="sidebar-link">
+                            <a href="{{ route('coa') }}" class="sidebar-link">
                                 <div class="round-16 d-flex align-items-center justify-content-center">
                                     <i class="ti ti-circle"></i>
                                 </div>
@@ -487,7 +487,7 @@
                             </a>
                         </li>
                         <li class="sidebar-item">
-                            <a href="ui-badge.html" class="sidebar-link">
+                            <a href="{{ route('bukubesar') }}" class="sidebar-link">
                                 <div class="round-16 d-flex align-items-center justify-content-center">
                                     <i class="ti ti-circle"></i>
                                 </div>
@@ -495,7 +495,7 @@
                             </a>
                         </li>
                         <li class="sidebar-item">
-                            <a href="ui-accordian.html" class="sidebar-link">
+                            <a href="{{ route('penyesuaian') }}" class="sidebar-link">
                                 <div class="round-16 d-flex align-items-center justify-content-center">
                                     <i class="ti ti-circle"></i>
                                 </div>
@@ -503,7 +503,7 @@
                             </a>
                         </li>
                         <li class="sidebar-item">
-                            <a href="ui-badge.html" class="sidebar-link">
+                            <a href="{{ route('neraca') }}" class="sidebar-link">
                                 <div class="round-16 d-flex align-items-center justify-content-center">
                                     <i class="ti ti-circle"></i>
                                 </div>
@@ -511,7 +511,7 @@
                             </a>
                         </li>
                         <li class="sidebar-item">
-                            <a href="ui-accordian.html" class="sidebar-link">
+                            <a href="{{ route('laporanlabarugi') }}" class="sidebar-link">
                                 <div class="round-16 d-flex align-items-center justify-content-center">
                                     <i class="ti ti-circle"></i>
                                 </div>
@@ -519,7 +519,7 @@
                             </a>
                         </li>
                         <li class="sidebar-item">
-                            <a href="ui-badge.html" class="sidebar-link">
+                            <a href="{{ route('laporanhutang') }}" class="sidebar-link">
                                 <div class="round-16 d-flex align-items-center justify-content-center">
                                     <i class="ti ti-circle"></i>
                                 </div>
@@ -527,7 +527,7 @@
                             </a>
                         </li>
                         <li class="sidebar-item">
-                            <a href="ui-badge.html" class="sidebar-link">
+                            <a href="{{ route('laporanpiutang') }}" class="sidebar-link">
                                 <div class="round-16 d-flex align-items-center justify-content-center">
                                     <i class="ti ti-circle"></i>
                                 </div>
@@ -545,7 +545,7 @@
                     </a>
                     <ul aria-expanded="false" class="collapse first-level">
                         <li class="sidebar-item">
-                            <a href="ui-accordian.html" class="sidebar-link">
+                            <a href="{{ route('fakturpenjualan') }}" class="sidebar-link">
                                 <div class="round-16 d-flex align-items-center justify-content-center">
                                     <i class="ti ti-circle"></i>
                                 </div>
@@ -553,7 +553,7 @@
                             </a>
                         </li>
                         <li class="sidebar-item">
-                            <a href="ui-badge.html" class="sidebar-link">
+                            <a href="{{ route('fakturpembelian') }}" class="sidebar-link">
                                 <div class="round-16 d-flex align-items-center justify-content-center">
                                     <i class="ti ti-circle"></i>
                                 </div>
@@ -561,7 +561,7 @@
                             </a>
                         </li>
                         <li class="sidebar-item">
-                            <a href="ui-accordian.html" class="sidebar-link">
+                            <a href="{{ route('diskon') }}" class="sidebar-link">
                                 <div class="round-16 d-flex align-items-center justify-content-center">
                                     <i class="ti ti-circle"></i>
                                 </div>
@@ -569,7 +569,7 @@
                             </a>
                         </li>
                         <li class="sidebar-item">
-                            <a href="ui-badge.html" class="sidebar-link">
+                            <a href="{{ route('labarugi') }}" class="sidebar-link">
                                 <div class="round-16 d-flex align-items-center justify-content-center">
                                     <i class="ti ti-circle"></i>
                                 </div>
