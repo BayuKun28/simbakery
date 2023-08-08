@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\LoginController;
+use App\Http\Controllers\MenuController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -20,4 +21,9 @@ use Illuminate\Support\Facades\Route;
 Route::controller(LoginController::class)->group(function () {
     Route::get('/', 'index')->name('/');
     Route::post('/authenticate', 'authenticate')->name('authenticate');
+});
+
+Route::resource('/menu', MenuController::class);
+Route::controller(MenuController::class)->group(function(){
+    Route::post('get_ajax_list', 'get_ajax_list')->name('get_ajax_list');
 });
