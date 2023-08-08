@@ -39,7 +39,7 @@ class MenuController extends Controller
             $data = DB::select($query);
             return Datatables::of($data)->addIndexColumn()
                 ->addColumn('action', function ($row) {
-                    $btn = '<a href="javascript:void(0)" data-toggle="tooltip"  data-id="' . $row->id . '" data-original-title="Edit" class="edit btn btn-warning mb-10 btn-sm editMenu"><i class="ti ti-edit"></i>';
+                    $btn = '<a href="javascript:void(0)" data-toggle="tooltip"  data-id="' . $row->id . '" data-original-title="Edit" class="edit btn btn-primary mb-10 btn-sm editMenu"><i class="ti ti-edit"></i></a>';
                     $btn = $btn . ' <a href="javascript:void(0)" data-toggle="tooltip"  data-id="' . $row->id . '" data-original-title="Delete" class="btn btn-danger mb-10 btn-sm deleteMenu"><i class="ti ti-trash"></i></a>';
                     return $btn;
                 })
