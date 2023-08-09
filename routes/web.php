@@ -1,13 +1,17 @@
 <?php
 
-use App\Http\Controllers\AccountingController;
-use App\Http\Controllers\HutangDagangController;
-use App\Http\Controllers\KasBankController;
-use App\Http\Controllers\LoginController;
-use App\Http\Controllers\MenuController;
-use App\Http\Controllers\PajakController;
-use App\Http\Controllers\PiutangController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\HomeController;
+use App\Http\Controllers\MenuController;
+use App\Http\Controllers\LoginController;
+use App\Http\Controllers\PajakController;
+use App\Http\Controllers\UsersController;
+use App\Http\Controllers\KasBankController;
+use App\Http\Controllers\PiutangController;
+use App\Http\Controllers\PembelianController;
+use App\Http\Controllers\AccountingController;
+use App\Http\Controllers\PersediaanController;
+use App\Http\Controllers\HutangDagangController;
 
 /*
 |--------------------------------------------------------------------------
@@ -27,6 +31,35 @@ Route::controller(LoginController::class)->group(function () {
     Route::get('/', 'index')->name('/');
     Route::post('/authenticate', 'authenticate')->name('authenticate');
 });
+
+Route::controller(HomeController::class)->group(function () {
+    Route::get('/dashboard', 'index')->name('/');
+});
+
+Route::controller(UsersController::class)->group(function () {
+    Route::get('/users', 'index')->name('/');
+});
+
+
+Route::controller(PersediaanController::class)->group(function () {
+    Route::get('/suplier', 'suplier')->name('/');
+    Route::get('/stok', 'stok')->name('/');
+    Route::get('/kartustok', 'kartustok')->name('/');
+    Route::get('/opname', 'opname')->name('/');
+    Route::get('/laporanstok', 'laporanstok')->name('/');
+    Route::get('/adjstok', 'adjstok')->name('/');
+});
+
+
+Route::controller(PembelianController::class)->group(function () {
+    Route::get('/masterharga', 'masterharga')->name('/');
+    Route::get('/stok', 'stok')->name('/');
+    Route::get('/kartustok', 'kartustok')->name('/');
+    Route::get('/opname', 'opname')->name('/');
+    Route::get('/laporanstok', 'laporanstok')->name('/');
+    Route::get('/adjstok', 'adjstok')->name('/');
+});
+
 
 Route::resource('/menu', MenuController::class);
 Route::controller(MenuController::class)->group(function(){
