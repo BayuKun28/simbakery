@@ -37,92 +37,83 @@
                 <div class="table-responsive">
                     <table id="config-table" class="table border display table-bordered table-striped no-wrap">
                         <thead>
-                            <!-- start row -->
                             <tr>
-                                <th>Nama Produk</th>
-                                <th>Harga</th>
-                                <th>Kategori</th>
-                                <th>Uraian</th>
-                                <th>Tampil?</th>
+                                <th></th>
+                                <th>Aktiva</th>
+                                <th>Pasiva</th>
                             </tr>
-                            <!-- end row -->
                         </thead>
                         <tbody>
-                            <!-- start row -->
                             <tr>
-                                <td>Tiger</td>
-                                <td>Nixon</td>
-                                <td>System Architect</td>
-                                <td>Edinburgh</td>
-                                <td>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input success" type="checkbox" id="success-check"
-                                            value="option1">
-                                        <label class="form-check-label" for="success-check">Ya</label>
-                                    </div>
-                                </td>
+                                <td><b>Aset Lancar</b></td>
+                                <td></td>
+                                <td></td>
                             </tr>
-                            <!-- end row -->
-                            <!-- start row -->
                             <tr>
-                                <td>Garrett</td>
-                                <td>Winters</td>
-                                <td>Accountant</td>
-                                <td>Tokyo</td>
-                                <td>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input success" type="checkbox" id="success-check"
-                                            value="option1">
-                                        <label class="form-check-label" for="success-check">Ya</label>
-                                    </div>
-                                </td>
+                                <td> - Kas</td>
+                                <td>150.000.000</td>
+                                <td></td>
                             </tr>
-                            <!-- end row -->
-                            <!-- start row -->
                             <tr>
-                                <td>Ashton</td>
-                                <td>Cox</td>
-                                <td>Junior Technical Author</td>
-                                <td>San Francisco</td>
-                                <td>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input success" type="checkbox" id="success-check"
-                                            value="option1">
-                                        <label class="form-check-label" for="success-check">Ya</label>
-                                    </div>
-                                </td>
+                                <td>- Persediaan</td>
+                                <td>50.000.000</td>
+                                <td></td>
                             </tr>
-                            <!-- end row -->
-                            <!-- start row -->
                             <tr>
-                                <td>Cedric</td>
-                                <td>Kelly</td>
-                                <td>Senior Javascript Developer</td>
-                                <td>Edinburgh</td>
-                                <td>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input success" type="checkbox" id="success-check"
-                                            value="option1">
-                                        <label class="form-check-label" for="success-check">Ya</label>
-                                    </div>
-                                </td>
+                                <td><b>Total Aset Lancar</b></td>
+                                <td>200.000.000</td>
+                                <td></td>
                             </tr>
-                            <!-- end row -->
-                            <!-- start row -->
                             <tr>
-                                <td>Airi</td>
-                                <td>Satou</td>
-                                <td>Accountant</td>
-                                <td>Tokyo</td>
-                                <td>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input success" type="checkbox" id="success-check"
-                                            value="option1">
-                                        <label class="form-check-label" for="success-check">Ya</label>
-                                    </div>
-                                </td>
+                                <td><b>Aset Tetap</b></td>
+                                <td></td>
+                                <td></td>
                             </tr>
-                            <!-- end row -->
+                            <tr>
+                                <td> - Peralatan</td>
+                                <td>300.000.000</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>- Kendaraan</td>
+                                <td>200.000.000</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td><b>Total Aset Tetap</b></td>
+                                <td>500.000.000</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td><b>Total Aset</b></td>
+                                <td>700.000.000</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td><b>Ekuitas</b></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td> - Modal</td>
+                                <td></td>
+                                <td>300.000.000</td>
+                            </tr>
+                            <tr>
+                                <td>- Laba Ditahan</td>
+                                <td></td>
+                                <td>400.000.000</td>
+                            </tr>
+                            <tr>
+                                <td><b>Total Ekuitas</b></td>
+                                <td></td>
+                                <td>700.000.000</td>
+                            </tr>
+                            <tr>
+                                <td><b>Total Pasiva</b></td>
+                                <td>700.000.000</td>
+                                <td></td>
+                            </tr>
                         </tbody>
                     </table>
                 </div>

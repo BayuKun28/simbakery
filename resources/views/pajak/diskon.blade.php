@@ -37,92 +37,29 @@
                 <div class="table-responsive">
                     <table id="config-table" class="table border display table-bordered table-striped no-wrap">
                         <thead>
-                            <!-- start row -->
                             <tr>
-                                <th>Nama Produk</th>
-                                <th>Harga</th>
-                                <th>Kategori</th>
-                                <th>Uraian</th>
-                                <th>Tampil?</th>
+                                <th>No</th>
+                                <th>Nama Diskon</th>
+                                <th>Persentase Diskon</th>
+                                <th>Tanggal Berlaku</th>
+                                <th>Tanggal Berkahir</th>
                             </tr>
-                            <!-- end row -->
                         </thead>
                         <tbody>
-                            <!-- start row -->
                             <tr>
-                                <td>Tiger</td>
-                                <td>Nixon</td>
-                                <td>System Architect</td>
-                                <td>Edinburgh</td>
-                                <td>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input success" type="checkbox" id="success-check"
-                                            value="option1">
-                                        <label class="form-check-label" for="success-check">Ya</label>
-                                    </div>
-                                </td>
+                                <td>1</td>
+                                <td>Diskon Awal Tahun</td>
+                                <td>10%</td>
+                                <td>1 Jan 2023</td>
+                                <td>5 Jan 2023</td>
                             </tr>
-                            <!-- end row -->
-                            <!-- start row -->
                             <tr>
-                                <td>Garrett</td>
-                                <td>Winters</td>
-                                <td>Accountant</td>
-                                <td>Tokyo</td>
-                                <td>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input success" type="checkbox" id="success-check"
-                                            value="option1">
-                                        <label class="form-check-label" for="success-check">Ya</label>
-                                    </div>
-                                </td>
+                                <td>2</td>
+                                <td>Lebaran Special</td>
+                                <td>15%</td>
+                                <td>15 Mei 2023</td>
+                                <td>20 Mei 2023</td>
                             </tr>
-                            <!-- end row -->
-                            <!-- start row -->
-                            <tr>
-                                <td>Ashton</td>
-                                <td>Cox</td>
-                                <td>Junior Technical Author</td>
-                                <td>San Francisco</td>
-                                <td>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input success" type="checkbox" id="success-check"
-                                            value="option1">
-                                        <label class="form-check-label" for="success-check">Ya</label>
-                                    </div>
-                                </td>
-                            </tr>
-                            <!-- end row -->
-                            <!-- start row -->
-                            <tr>
-                                <td>Cedric</td>
-                                <td>Kelly</td>
-                                <td>Senior Javascript Developer</td>
-                                <td>Edinburgh</td>
-                                <td>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input success" type="checkbox" id="success-check"
-                                            value="option1">
-                                        <label class="form-check-label" for="success-check">Ya</label>
-                                    </div>
-                                </td>
-                            </tr>
-                            <!-- end row -->
-                            <!-- start row -->
-                            <tr>
-                                <td>Airi</td>
-                                <td>Satou</td>
-                                <td>Accountant</td>
-                                <td>Tokyo</td>
-                                <td>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input success" type="checkbox" id="success-check"
-                                            value="option1">
-                                        <label class="form-check-label" for="success-check">Ya</label>
-                                    </div>
-                                </td>
-                            </tr>
-                            <!-- end row -->
                         </tbody>
                     </table>
                 </div>

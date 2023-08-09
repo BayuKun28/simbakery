@@ -37,92 +37,38 @@
                 <div class="table-responsive">
                     <table id="config-table" class="table border display table-bordered table-striped no-wrap">
                         <thead>
-                            <!-- start row -->
                             <tr>
-                                <th>Nama Produk</th>
-                                <th>Harga</th>
-                                <th>Kategori</th>
-                                <th>Uraian</th>
-                                <th>Tampil?</th>
+                                <th></th>
+                                <th>Hutang</th>
+                                <th>Jatuh Tempo</th>
+                                <th>Saldo</th>
                             </tr>
-                            <!-- end row -->
                         </thead>
                         <tbody>
-                            <!-- start row -->
                             <tr>
-                                <td>Tiger</td>
-                                <td>Nixon</td>
-                                <td>System Architect</td>
-                                <td>Edinburgh</td>
-                                <td>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input success" type="checkbox" id="success-check"
-                                            value="option1">
-                                        <label class="form-check-label" for="success-check">Ya</label>
-                                    </div>
-                                </td>
+                                <td>Hutang Dagang</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
                             </tr>
-                            <!-- end row -->
-                            <!-- start row -->
                             <tr>
-                                <td>Garrett</td>
-                                <td>Winters</td>
-                                <td>Accountant</td>
-                                <td>Tokyo</td>
-                                <td>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input success" type="checkbox" id="success-check"
-                                            value="option1">
-                                        <label class="form-check-label" for="success-check">Ya</label>
-                                    </div>
-                                </td>
+                                <td>- Suplier A</td>
+                                <td>10.000.000</td>
+                                <td>12 Des 2023</td>
+                                <td>10.000.000</td>
                             </tr>
-                            <!-- end row -->
-                            <!-- start row -->
                             <tr>
-                                <td>Ashton</td>
-                                <td>Cox</td>
-                                <td>Junior Technical Author</td>
-                                <td>San Francisco</td>
-                                <td>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input success" type="checkbox" id="success-check"
-                                            value="option1">
-                                        <label class="form-check-label" for="success-check">Ya</label>
-                                    </div>
-                                </td>
+                                <td>- Suplier B</td>
+                                <td>8.000.000</td>
+                                <td>30 Des 2023</td>
+                                <td>8.000.000</td>
                             </tr>
-                            <!-- end row -->
-                            <!-- start row -->
                             <tr>
-                                <td>Cedric</td>
-                                <td>Kelly</td>
-                                <td>Senior Javascript Developer</td>
-                                <td>Edinburgh</td>
-                                <td>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input success" type="checkbox" id="success-check"
-                                            value="option1">
-                                        <label class="form-check-label" for="success-check">Ya</label>
-                                    </div>
-                                </td>
+                                <td>Total Hutang Dagang</td>
+                                <td></td>
+                                <td></td>
+                                <td>18.000.000</td>
                             </tr>
-                            <!-- end row -->
-                            <!-- start row -->
-                            <tr>
-                                <td>Airi</td>
-                                <td>Satou</td>
-                                <td>Accountant</td>
-                                <td>Tokyo</td>
-                                <td>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input success" type="checkbox" id="success-check"
-                                            value="option1">
-                                        <label class="form-check-label" for="success-check">Ya</label>
-                                    </div>
-                                </td>
-                            </tr>
-                            <!-- end row -->
                         </tbody>
                     </table>
                 </div>
