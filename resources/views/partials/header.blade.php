@@ -17,6 +17,7 @@
     <meta name="keywords" content="Mordenize" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <!--  Favicon -->
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
     <link rel="shortcut icon" type="image/png" href="{{ asset('modern/') }}/dist/images/logos/favicon.png" />
     <!-- Core Css -->
     <link id="themeColors" rel="stylesheet" href="{{ asset('modern/') }}/dist/css/style.min.css" />

@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\Menu;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
+use Symfony\Component\HttpFoundation\JsonResponse;
 use Yajra\DataTables\Facades\DataTables as Datatables;
 
 class MenuController extends Controller
@@ -81,6 +82,20 @@ class MenuController extends Controller
 
     }
 
+    public function menuparent(Request $request): JsonResponse
+    {
+
+        if(!empty($_GET['q'])){
+            $key = $_GET['q'];
+            $search = "AND name ilike '%$key%' ";
+        }else{
+            $search = "";
+        }
+        $query = "SELECT id, name FROM menu WHERE parent_id IS NULL $search ORDER BY id ASC";
+        $data = DB::select($query);
+        return response()->json($data);
+    }
+    
     /**
      * Display the specified resource.
      */
@@ -92,10 +107,35 @@ class MenuController extends Controller
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(string $id)
-    {
-        //
+
+     public function edit(string $id)
+    {   
+
+        $menu = DB::select('SELECT a.id, a.name, a.url, b.name as parentmenu, a.ord, a.parent_id, a.icon
+                        FROM menu a
+                            LEFT JOIN menu b on b.id = a.parent_id
+                        WHERE a.id = ?', [$id]);
+        $menu = !empty($menu) ? $menu[0] : null;
+
+        return response()->json($menu);
     }
+
+    // public function edit(string $id)
+    // {
+
+    //     if(!empty($_GET['q'])){
+    //         $key = $_GET['q'];
+    //         $search = "AND name ilike '%$key%' ";
+    //     }else{
+    //         $search = "";
+    //     }
+    //     $query = "SELECT a.id, a.name, a.url, b.name as parentmenu, a.ord 
+    //                     FROM menu a
+    //                         LEFT JOIN menu b on b.id = a.parent_id
+    //                     WHERE a.parent_id IS NULL AND a.id = '" . $id . "' 
+    //                     ORDER BY id ASC";
+    //     return response()->json($query);
+    // }
 
     /**
      * Update the specified resource in storage.

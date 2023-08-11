@@ -16,15 +16,15 @@ class KasBankController extends Controller
         return view('kasbank.kasmasuk', $data);
     }
 
-    public function laporankasmasuk()
-    {
-        $data['component'] = [
-            'title' => 'Laporan Kas Masuk',
-            'menu' => 'Kas dan Bank',
-            'submenu' => 'Laporan Kas Masuk'
-        ];
-        return view('kasbank.laporankasmasuk', $data);
-    }
+    // public function laporankasmasuk()
+    // {
+    //     $data['component'] = [
+    //         'title' => 'Laporan Kas Masuk',
+    //         'menu' => 'Kas dan Bank',
+    //         'submenu' => 'Laporan Kas Masuk'
+    //     ];
+    //     return view('kasbank.laporankasmasuk', $data);
+    // }
 
     public function bankmasuk()
     {
@@ -36,15 +36,15 @@ class KasBankController extends Controller
         return view('kasbank.bankmasuk', $data);
     }
 
-    public function laporanbankmasuk()
-    {
-        $data['component'] = [
-            'title' => 'Laporan Bank Masuk',
-            'menu' => 'Kas dan Bank',
-            'submenu' => 'Laporan Bank Masuk'
-        ];
-        return view('kasbank.laporanbankmasuk', $data);
-    }
+    // public function laporanbankmasuk()
+    // {
+    //     $data['component'] = [
+    //         'title' => 'Laporan Bank Masuk',
+    //         'menu' => 'Kas dan Bank',
+    //         'submenu' => 'Laporan Bank Masuk'
+    //     ];
+    //     return view('kasbank.laporanbankmasuk', $data);
+    // }
 
     public function kaskeluar()
     {
@@ -56,15 +56,15 @@ class KasBankController extends Controller
         return view('kasbank.kaskeluar', $data);
     }
 
-    public function laporankaskeluar()
-    {
-        $data['component'] = [
-            'title' => 'Laporan Kas Keluar',
-            'menu' => 'Kas dan Bank',
-            'submenu' => 'Laporan Kas Keluar'
-        ];
-        return view('kasbank.laporankaskeluar', $data);
-    }
+    // public function laporankaskeluar()
+    // {
+    //     $data['component'] = [
+    //         'title' => 'Laporan Kas Keluar',
+    //         'menu' => 'Kas dan Bank',
+    //         'submenu' => 'Laporan Kas Keluar'
+    //     ];
+    //     return view('kasbank.laporankaskeluar', $data);
+    // }
 
     public function bankkeluar()
     {
@@ -76,25 +76,25 @@ class KasBankController extends Controller
         return view('kasbank.bankkeluar', $data);
     }
 
-    public function laporancashflow()
-    {
-        $data['component'] = [
-            'title' => 'Laporan Cash Flow',
-            'menu' => 'Kas dan Bank',
-            'submenu' => 'Laporan Cash Flow'
-        ];
-        return view('kasbank.laporancashflow', $data);
-    }
+    // public function laporancashflow()
+    // {
+    //     $data['component'] = [
+    //         'title' => 'Laporan Cash Flow',
+    //         'menu' => 'Kas dan Bank',
+    //         'submenu' => 'Laporan Cash Flow'
+    //     ];
+    //     return view('kasbank.laporancashflow', $data);
+    // }
 
-    public function laporanbbs()
-    {
-        $data['component'] = [
-            'title' => 'Laporan Buku Bank System',
-            'menu' => 'Kas dan Bank',
-            'submenu' => 'Laporan Buku Bank System'
-        ];
-        return view('kasbank.laporanbbs', $data);
-    }
+    // public function laporanbbs()
+    // {
+    //     $data['component'] = [
+    //         'title' => 'Laporan Buku Bank System',
+    //         'menu' => 'Kas dan Bank',
+    //         'submenu' => 'Laporan Buku Bank System'
+    //     ];
+    //     return view('kasbank.laporanbbs', $data);
+    // }
 
     public function bukubankrk()
     {

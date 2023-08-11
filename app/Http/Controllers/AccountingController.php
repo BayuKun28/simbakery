@@ -46,33 +46,33 @@ class AccountingController extends Controller
         return view('accounting.neraca', $data);
     }
 
-    public function laporanlabarugi()
-    {
-        $data['component'] = [
-            'title' => 'Laporan Laba Rugi',
-            'menu' => 'Accounting',
-            'submenu' => 'Laporan Laba Rugi'
-        ];
-        return view('accounting.laporanlabarugi', $data);
-    }
+    // public function laporanlabarugi()
+    // {
+    //     $data['component'] = [
+    //         'title' => 'Laporan Laba Rugi',
+    //         'menu' => 'Accounting',
+    //         'submenu' => 'Laporan Laba Rugi'
+    //     ];
+    //     return view('accounting.laporanlabarugi', $data);
+    // }
 
-    public function laporanhutang()
-    {
-        $data['component'] = [
-            'title' => 'Laporan Hutang',
-            'menu' => 'Accounting',
-            'submenu' => 'Laporan Hutang'
-        ];
-        return view('accounting.laporanhutang', $data);
-    }
+    // public function laporanhutang()
+    // {
+    //     $data['component'] = [
+    //         'title' => 'Laporan Hutang',
+    //         'menu' => 'Accounting',
+    //         'submenu' => 'Laporan Hutang'
+    //     ];
+    //     return view('accounting.laporanhutang', $data);
+    // }
 
-    public function laporanpiutang()
-    {
-        $data['component'] = [
-            'title' => 'Laporan Piutang',
-            'menu' => 'Accounting',
-            'submenu' => 'Laporan Piutang'
-        ];
-        return view('accounting.laporanpiutang', $data);
-    }
+    // public function laporanpiutang()
+    // {
+    //     $data['component'] = [
+    //         'title' => 'Laporan Piutang',
+    //         'menu' => 'Accounting',
+    //         'submenu' => 'Laporan Piutang'
+    //     ];
+    //     return view('accounting.laporanpiutang', $data);
+    // }
 }

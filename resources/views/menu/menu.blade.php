@@ -83,7 +83,7 @@
                             </div>
                             <div class="form-group">
                                 <label for="parent">Parent Menu</label>
-                                <select name="parent" id="parent" class="form-control rounded"></select>
+                                <select name="parent" id="parent" class="parent form-control rounded"></select>
                             </div>
                             <div class="form-group">
                                 <label for="order">Order</label>
@@ -110,8 +110,10 @@
 @endsection
 @section('addjs')
     <script type="text/javascript">
+        let baseurl = "{{ route('menu.index') }}";
         let urldata = "{{ route('get_ajax_list') }}";
         let urlStore = "{{ route('menu.store') }}";
+        let urlSelect2 = "{{ route('menuparent') }}";
     </script>
     <script src="{{ asset('modern/dist/js') }}/menu.js"></script>
 @endsection

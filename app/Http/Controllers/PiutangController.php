@@ -16,15 +16,15 @@ class PiutangController extends Controller
         return view('piutang.piutangjual', $data);
     }
 
-    public function laporanpiutangpenjualan()
-    {
-        $data['component'] = [
-            'title' => 'Laporan Piutang Penjualan',
-            'menu' => 'Piutang',
-            'submenu' => 'Laporan Piutang Penjualan'
-        ];
-        return view('piutang.laporanpiutangjual', $data);
-    }
+    // public function laporanpiutangpenjualan()
+    // {
+    //     $data['component'] = [
+    //         'title' => 'Laporan Piutang Penjualan',
+    //         'menu' => 'Piutang',
+    //         'submenu' => 'Laporan Piutang Penjualan'
+    //     ];
+    //     return view('piutang.laporanpiutangjual', $data);
+    // }
 
     public function adjpiutang()
     {

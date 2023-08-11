@@ -50,11 +50,62 @@ $(function () {
         autoWidth: false
     });
 
+    $("body").on("click", ".editMenu", function () {
+        savemethod = "update";
+        $("#menuform").trigger("reset");
+        var id_menu = $(this).data("id");
+        $.get(baseurl + "/" + id_menu + "/edit", function (data) {
+            $("#modelHeading").html("Edit Menu");
+            $("#saveBtn").val("edit-menu");
+            $("#ajaxModel").modal("show");
+
+            $("#id_menu").val(data.id);
+            $("#menu").val(data.name);
+            $("#username").val(data.username);
+            $("#url").val(data.url);
+            $("#order").val(data.ord);
+            $("#icon").val(data.icon);
+            var hasil = $("<option selected='selected'></option>")
+                .val(data.parent_id)
+                .text(data.parentmenu);
+            $("#parent").append(hasil).trigger("change");
+        });
+    });
+
+    $(".parent").select2({
+        width: "100%",
+        placeholder: "Pilih Parent Menu",
+        dropdownParent: $("#ajaxModel"),
+        ajax: {
+            url: urlSelect2,
+            dataType: "json",
+            delay: 250,
+            data: function (params) {
+                return {
+                    q: params.term,
+                };
+            },
+            processResults: function (data) {
+                var results = [];
+                $.each(data, function (index, item) {
+                    results.push({
+                        id: item.id,
+                        text: item.name,
+                    });
+                });
+                return {
+                    results: results,
+                };
+            },
+        },
+    });
+
     $("#createMenu").click(function () {
         savemethod = "add";
         $("#saveBtn").val("create-menu");
         $("#id_menu").val("");
         $("#menuform").trigger("reset");
+        $("#parent").val(null).trigger("change");
         $("#modelHeading").html("Tambah Menu");
         $("#ajaxModel").modal("show");
     });

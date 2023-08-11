@@ -16,15 +16,15 @@ class HutangDagangController extends Controller
         return view('hutangdagang.hutangpembelian', $data);
     }
 
-    public function laporanhutangpenjualan()
-    {
-        $data['component'] = [
-            'title' => 'Laporan Hutang Pembelian',
-            'menu' => 'Hutang Dagang',
-            'submenu' => 'Laporan Hutang Pembelian'
-        ];
-        return view('hutangdagang.laporanhutangpembelian', $data);
-    }
+    // public function laporanhutangpenjualan()
+    // {
+    //     $data['component'] = [
+    //         'title' => 'Laporan Hutang Pembelian',
+    //         'menu' => 'Hutang Dagang',
+    //         'submenu' => 'Laporan Hutang Pembelian'
+    //     ];
+    //     return view('hutangdagang.laporanhutangpembelian', $data);
+    // }
 
     public function adjhutang()
     {

@@ -27,7 +27,7 @@
                 <!-- Dashboard -->
                 <!-- =================== -->
                 <li class="sidebar-item">
-                    <a class="sidebar-link" href="{{('dashboard')}}" aria-expanded="false">
+                    <a class="sidebar-link" href="{{ 'dashboard' }}" aria-expanded="false">
                         <span>
                             <i class="ti ti-dashboard"></i>
                         </span>
@@ -35,7 +35,7 @@
                     </a>
                 </li>
                 <li class="sidebar-item">
-                    <a class="sidebar-link" href="{{('users')}}" aria-expanded="false">
+                    <a class="sidebar-link" href="{{ 'users' }}" aria-expanded="false">
                         <span>
                             <i class="ti ti-users"></i>
                         </span>
@@ -51,7 +51,7 @@
                     </a>
                     <ul aria-expanded="false" class="collapse first-level">
                         <li class="sidebar-item">
-                            <a href="{{('suplier')}}" class="sidebar-link">
+                            <a href="{{ 'suplier' }}" class="sidebar-link">
                                 <div class="round-16 d-flex align-items-center justify-content-center">
                                     <i class="ti ti-circle"></i>
                                 </div>
@@ -59,7 +59,7 @@
                             </a>
                         </li>
                         <li class="sidebar-item">
-                            <a href="{{('stok')}}" class="sidebar-link">
+                            <a href="{{ 'stok' }}" class="sidebar-link">
                                 <div class="round-16 d-flex align-items-center justify-content-center">
                                     <i class="ti ti-circle"></i>
                                 </div>
@@ -67,7 +67,7 @@
                             </a>
                         </li>
                         <li class="sidebar-item">
-                            <a href="{{('kartustok')}}" class="sidebar-link">
+                            <a href="{{ 'kartustok' }}" class="sidebar-link">
                                 <div class="round-16 d-flex align-items-center justify-content-center">
                                     <i class="ti ti-circle"></i>
                                 </div>
@@ -75,23 +75,23 @@
                             </a>
                         </li>
                         <li class="sidebar-item">
-                            <a href="{{('opname')}}" class="sidebar-link">
+                            <a href="{{ 'opname' }}" class="sidebar-link">
                                 <div class="round-16 d-flex align-items-center justify-content-center">
                                     <i class="ti ti-circle"></i>
                                 </div>
                                 <span class="hide-menu">Stok Opname</span>
                             </a>
                         </li>
-                        <li class="sidebar-item">
+                        {{-- <li class="sidebar-item">
                             <a href="{{('laporanpersediaan')}}" class="sidebar-link">
                                 <div class="round-16 d-flex align-items-center justify-content-center">
                                     <i class="ti ti-circle"></i>
                                 </div>
                                 <span class="hide-menu">Laporan Persediaan</span>
                             </a>
-                        </li>
+                        </li> --}}
                         <li class="sidebar-item">
-                            <a href="{{('adjstok')}}" class="sidebar-link">
+                            <a href="{{ 'adjstok' }}" class="sidebar-link">
                                 <div class="round-16 d-flex align-items-center justify-content-center">
                                     <i class="ti ti-circle"></i>
                                 </div>
@@ -111,7 +111,7 @@
                         <li class="sidebar-item">
                             <a href="eco-shop.html" class="sidebar-link">
                                 <div class="round-16 d-flex align-items-center justify-content-center">
-                                    <i class="ti ti-shopping-cart"></i>
+                                    <i class="ti ti-circle"></i>
                                 </div>
                                 <span class="hide-menu">Master Harga Beli</span>
                             </a>
@@ -172,7 +172,7 @@
                                 <span class="hide-menu">Cek Harga Pembelian</span>
                             </a>
                         </li>
-                        <li class="sidebar-item">
+                        {{-- <li class="sidebar-item">
                             <a href="eco-checkout.html" class="sidebar-link">
                                 <div class="round-16 d-flex align-items-center justify-content-center">
                                     <i class="ti ti-circle"></i>
@@ -195,7 +195,7 @@
                                 </div>
                                 <span class="hide-menu">Laporan Order Barang Wajib Beli</span>
                             </a>
-                        </li>
+                        </li> --}}
                     </ul>
                 </li>
                 <li class="sidebar-item">
@@ -278,7 +278,7 @@
                                 <span class="hide-menu">Faktur Penjualan</span>
                             </a>
                         </li>
-                        <li class="sidebar-item">
+                        {{-- <li class="sidebar-item">
                             <a href="widgets-charts.html" class="sidebar-link">
                                 <div class="round-16 d-flex align-items-center justify-content-center">
                                     <i class="ti ti-circle"></i>
@@ -309,7 +309,7 @@
                                 </div>
                                 <span class="hide-menu">Laporan retur penjualan</span>
                             </a>
-                        </li>
+                        </li> --}}
                     </ul>
                 </li>
                 <li class="sidebar-item">
@@ -328,14 +328,14 @@
                                 <span class="hide-menu">Hutang pembelian</span>
                             </a>
                         </li>
-                        <li class="sidebar-item">
+                        {{-- <li class="sidebar-item">
                             <a href="{{ route('laporanhutangpenjualan') }}" class="sidebar-link">
                                 <div class="round-16 d-flex align-items-center justify-content-center">
                                     <i class="ti ti-circle"></i>
                                 </div>
                                 <span class="hide-menu">Laporan hutang pembelian</span>
                             </a>
-                        </li>
+                        </li> --}}
                         <li class="sidebar-item">
                             <a href="{{ route('adjhutang') }}" class="sidebar-link">
                                 <div class="round-16 d-flex align-items-center justify-content-center">
@@ -362,14 +362,14 @@
                                 <span class="hide-menu">Piutang penjualan</span>
                             </a>
                         </li>
-                        <li class="sidebar-item">
+                        {{-- <li class="sidebar-item">
                             <a href="{{ route('laporanpiutangpenjualan') }}" class="sidebar-link">
                                 <div class="round-16 d-flex align-items-center justify-content-center">
                                     <i class="ti ti-circle"></i>
                                 </div>
                                 <span class="hide-menu">Laporan Piutang Penjualan</span>
                             </a>
-                        </li>
+                        </li> --}}
                         <li class="sidebar-item">
                             <a href="{{ route('adjpiutang') }}" class="sidebar-link">
                                 <div class="round-16 d-flex align-items-center justify-content-center">
@@ -396,14 +396,14 @@
                                 <span class="hide-menu">KAS Masuk</span>
                             </a>
                         </li>
-                        <li class="sidebar-item">
+                        {{-- <li class="sidebar-item">
                             <a href="{{ route('laporankasmasuk') }}" class="sidebar-link">
                                 <div class="round-16 d-flex align-items-center justify-content-center">
                                     <i class="ti ti-circle"></i>
                                 </div>
                                 <span class="hide-menu">Laporang KAS masuk</span>
                             </a>
-                        </li>
+                        </li> --}}
                         <li class="sidebar-item">
                             <a href="{{ route('bankmasuk') }}" class="sidebar-link">
                                 <div class="round-16 d-flex align-items-center justify-content-center">
@@ -412,14 +412,14 @@
                                 <span class="hide-menu">Bank Masuk</span>
                             </a>
                         </li>
-                        <li class="sidebar-item">
+                        {{-- <li class="sidebar-item">
                             <a href="{{ route('laporanbankmasuk') }}" class="sidebar-link">
                                 <div class="round-16 d-flex align-items-center justify-content-center">
                                     <i class="ti ti-circle"></i>
                                 </div>
                                 <span class="hide-menu">Laporan Bank Masuk</span>
                             </a>
-                        </li>
+                        </li> --}}
                         <li class="sidebar-item">
                             <a href="{{ route('kaskeluar') }}" class="sidebar-link">
                                 <div class="round-16 d-flex align-items-center justify-content-center">
@@ -428,14 +428,14 @@
                                 <span class="hide-menu">KAS Keluar</span>
                             </a>
                         </li>
-                        <li class="sidebar-item">
+                        {{-- <li class="sidebar-item">
                             <a href="{{ route('laporankaskeluar') }}" class="sidebar-link">
                                 <div class="round-16 d-flex align-items-center justify-content-center">
                                     <i class="ti ti-circle"></i>
                                 </div>
                                 <span class="hide-menu">Laporan KAS Keluar</span>
                             </a>
-                        </li>
+                        </li> --}}
                         <li class="sidebar-item">
                             <a href="{{ route('bankkeluar') }}" class="sidebar-link">
                                 <div class="round-16 d-flex align-items-center justify-content-center">
@@ -444,14 +444,14 @@
                                 <span class="hide-menu">Bank Keluar</span>
                             </a>
                         </li>
-                        <li class="sidebar-item">
+                        {{-- <li class="sidebar-item">
                             <a href="{{ route('laporancashflow') }}" class="sidebar-link">
                                 <div class="round-16 d-flex align-items-center justify-content-center">
                                     <i class="ti ti-circle"></i>
                                 </div>
                                 <span class="hide-menu">Laporan Cashflow</span>
                             </a>
-                        </li>
+                        </li> 
                         <li class="sidebar-item">
                             <a href="{{ route('laporanbbs') }}" class="sidebar-link">
                                 <div class="round-16 d-flex align-items-center justify-content-center">
@@ -459,7 +459,7 @@
                                 </div>
                                 <span class="hide-menu">Laporan Buku Bank System</span>
                             </a>
-                        </li>
+                        </li> --}}
                         <li class="sidebar-item">
                             <a href="{{ route('bukubankrk') }}" class="sidebar-link">
                                 <div class="round-16 d-flex align-items-center justify-content-center">
@@ -510,7 +510,7 @@
                                 <span class="hide-menu">Neraca</span>
                             </a>
                         </li>
-                        <li class="sidebar-item">
+                        {{-- <li class="sidebar-item">
                             <a href="{{ route('laporanlabarugi') }}" class="sidebar-link">
                                 <div class="round-16 d-flex align-items-center justify-content-center">
                                     <i class="ti ti-circle"></i>
@@ -533,7 +533,7 @@
                                 </div>
                                 <span class="hide-menu">Laporan Piutang Cabang</span>
                             </a>
-                        </li>
+                        </li> --}}
                     </ul>
                 </li>
                 <li class="sidebar-item">
@@ -574,6 +574,104 @@
                                     <i class="ti ti-circle"></i>
                                 </div>
                                 <span class="hide-menu">Laba Rugi</span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="sidebar-item">
+                    <a class="sidebar-link has-arrow" href="#" aria-expanded="false">
+                        <span class="d-flex">
+                            <i class="ti ti-report"></i>
+                        </span>
+                        <span class="hide-menu">Laporan</span>
+                    </a>
+                    <ul aria-expanded="false" class="collapse first-level">
+                        <li class="sidebar-item">
+                            <a href="{{ 'laporanstok' }}" class="sidebar-link">
+                                <div class="round-16 d-flex align-items-center justify-content-center">
+                                    <i class="ti ti-circle"></i>
+                                </div>
+                                <span class="hide-menu">Laporan Stock</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="{{ 'laporanlabarugi' }}" class="sidebar-link">
+                                <div class="round-16 d-flex align-items-center justify-content-center">
+                                    <i class="ti ti-circle"></i>
+                                </div>
+                                <span class="hide-menu">Laporan Laba Rugi</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="{{ 'laporanhutang' }}" class="sidebar-link">
+                                <div class="round-16 d-flex align-items-center justify-content-center">
+                                    <i class="ti ti-circle"></i>
+                                </div>
+                                <span class="hide-menu">Laporan Hutang</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="{{ 'laporanpiutang' }}" class="sidebar-link">
+                                <div class="round-16 d-flex align-items-center justify-content-center">
+                                    <i class="ti ti-circle"></i>
+                                </div>
+                                <span class="hide-menu">Laporan Piutang</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="{{ 'laporankasmasuk' }}" class="sidebar-link">
+                                <div class="round-16 d-flex align-items-center justify-content-center">
+                                    <i class="ti ti-circle"></i>
+                                </div>
+                                <span class="hide-menu">Laporan Kas Masuk</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="{{ 'laporanbankmasuk' }}" class="sidebar-link">
+                                <div class="round-16 d-flex align-items-center justify-content-center">
+                                    <i class="ti ti-circle"></i>
+                                </div>
+                                <span class="hide-menu">Laporan Bank Masuk</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="{{ 'laporankaskeluar' }}" class="sidebar-link">
+                                <div class="round-16 d-flex align-items-center justify-content-center">
+                                    <i class="ti ti-circle"></i>
+                                </div>
+                                <span class="hide-menu">Laporan Kas Keluar</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="{{ 'laporancashflow' }}" class="sidebar-link">
+                                <div class="round-16 d-flex align-items-center justify-content-center">
+                                    <i class="ti ti-circle"></i>
+                                </div>
+                                <span class="hide-menu">Laporan Cash Flow</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="{{ 'laporanbbs' }}" class="sidebar-link">
+                                <div class="round-16 d-flex align-items-center justify-content-center">
+                                    <i class="ti ti-circle"></i>
+                                </div>
+                                <span class="hide-menu">Laporan BBS</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="{{ 'laporanpiutangpenjualan' }}" class="sidebar-link">
+                                <div class="round-16 d-flex align-items-center justify-content-center">
+                                    <i class="ti ti-circle"></i>
+                                </div>
+                                <span class="hide-menu">Laporan Piutang Penjualan</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="{{ 'laporanhutangpenjualan' }}" class="sidebar-link">
+                                <div class="round-16 d-flex align-items-center justify-content-center">
+                                    <i class="ti ti-circle"></i>
+                                </div>
+                                <span class="hide-menu">Laporan Hutang Penjualan</span>
                             </a>
                         </li>
                     </ul>

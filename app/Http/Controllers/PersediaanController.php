@@ -44,15 +44,15 @@ class PersediaanController extends Controller
         return view('persediaan.opname', $data);
     }
 
-    public function laporanstok()
-    {
-        $data['component'] = [
-            'title' => 'Laporan Stock',
-            'menu' => 'Persediaan',
-            'submenu' => 'Laporan Stock'
-        ];
-        return view('persediaan.laporanstok', $data);
-    }
+    // public function laporanstok()
+    // {
+    //     $data['component'] = [
+    //         'title' => 'Laporan Stock',
+    //         'menu' => 'Persediaan',
+    //         'submenu' => 'Laporan Stock'
+    //     ];
+    //     return view('persediaan.laporanstok', $data);
+    // }
     public function adjstok()
     {
         $data['component'] = [
