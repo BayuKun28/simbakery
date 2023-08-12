@@ -685,7 +685,7 @@
                         width="40" height="40" alt="">
                 </div>
                 <div class="john-title">
-                    <h6 class="mb-0 fs-4 fw-semibold">Mathew</h6>
+                    <h6 class="mb-0 fs-4 fw-semibold">Admin</h6>
                     <span class="fs-2 text-dark">Designer</span>
                 </div>
                 <button class="border-0 bg-transparent text-primary ms-auto" tabindex="0" type="button"
